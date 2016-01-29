@@ -171,58 +171,58 @@
 </packages>
 <symbols>
 <symbol name="ADAU1701">
-<wire x1="-25.4" y1="30.48" x2="27.94" y2="30.48" width="0.254" layer="94"/>
-<wire x1="27.94" y1="30.48" x2="27.94" y2="-88.9" width="0.254" layer="94"/>
-<wire x1="27.94" y1="-88.9" x2="-25.4" y2="-88.9" width="0.254" layer="94"/>
-<wire x1="-25.4" y1="-88.9" x2="-25.4" y2="30.48" width="0.254" layer="94"/>
-<pin name="/RESET" x="33.02" y="-50.8" length="middle" rot="R180"/>
-<pin name="ADC1" x="-30.48" y="20.32" length="middle"/>
-<pin name="ADC0" x="-30.48" y="25.4" length="middle"/>
-<pin name="ADC_RES" x="-30.48" y="15.24" length="middle"/>
-<pin name="ADR0" x="33.02" y="-15.24" length="middle" rot="R180"/>
-<pin name="ADR1/CDATA/WB" x="33.02" y="-20.32" length="middle" rot="R180"/>
-<pin name="AGND" x="0" y="-93.98" length="middle" rot="R90"/>
-<pin name="AGND@1" x="-5.08" y="-93.98" length="middle" rot="R90"/>
-<pin name="AGND@2" x="-10.16" y="-93.98" length="middle" rot="R90"/>
-<pin name="AVDD" x="0" y="35.56" length="middle" rot="R270"/>
-<pin name="AVDD@1" x="-5.08" y="35.56" length="middle" rot="R270"/>
-<pin name="CLATCH/WP" x="33.02" y="-25.4" length="middle" rot="R180"/>
-<pin name="CM" x="33.02" y="-5.08" length="middle" rot="R180"/>
-<pin name="DGND" x="5.08" y="-93.98" length="middle" rot="R90"/>
-<pin name="DGND@1" x="10.16" y="-93.98" length="middle" rot="R90"/>
-<pin name="DVDD" x="5.08" y="35.56" length="middle" rot="R270"/>
-<pin name="DVDD@1" x="10.16" y="35.56" length="middle" rot="R270"/>
-<pin name="FILTA" x="-30.48" y="10.16" length="middle"/>
-<pin name="FILTD" x="33.02" y="0" length="middle" rot="R180"/>
-<pin name="IOVDD" x="-15.24" y="35.56" length="middle" rot="R270"/>
-<pin name="MCLOCKI" x="-30.48" y="-81.28" length="middle"/>
-<pin name="MP0" x="-30.48" y="0" length="middle"/>
-<pin name="MP1" x="-30.48" y="-5.08" length="middle"/>
-<pin name="MP2" x="-30.48" y="-10.16" length="middle"/>
-<pin name="MP3" x="-30.48" y="-15.24" length="middle"/>
-<pin name="MP4" x="-30.48" y="-20.32" length="middle"/>
-<pin name="MP5" x="-30.48" y="-25.4" length="middle"/>
-<pin name="MP6" x="-30.48" y="-30.48" length="middle"/>
-<pin name="MP7" x="-30.48" y="-35.56" length="middle"/>
-<pin name="MP8" x="-30.48" y="-40.64" length="middle"/>
-<pin name="MP9" x="-30.48" y="-45.72" length="middle"/>
-<pin name="MP10" x="-30.48" y="-50.8" length="middle"/>
-<pin name="MP11" x="-30.48" y="-55.88" length="middle"/>
-<pin name="OSCO" x="-30.48" y="-86.36" length="middle"/>
-<pin name="PGND" x="15.24" y="-93.98" length="middle" rot="R90"/>
-<pin name="PLL_LF" x="-30.48" y="-66.04" length="middle"/>
-<pin name="PLL_MODE0" x="-30.48" y="-71.12" length="middle"/>
-<pin name="PLL_MODE1" x="-30.48" y="-76.2" length="middle"/>
-<pin name="PVDD" x="-10.16" y="35.56" length="middle" rot="R270"/>
-<pin name="RSVD" x="33.02" y="-55.88" length="middle" rot="R180"/>
-<pin name="SCL/CCLK" x="33.02" y="-35.56" length="middle" rot="R180"/>
-<pin name="SDA/COUT" x="33.02" y="-30.48" length="middle" rot="R180"/>
-<pin name="SELFBOOT" x="33.02" y="-40.64" length="middle" rot="R180"/>
-<pin name="VDRIVE" x="15.24" y="35.56" length="middle" rot="R270"/>
-<pin name="VOUT0" x="33.02" y="25.4" length="middle" rot="R180"/>
-<pin name="VOUT1" x="33.02" y="20.32" length="middle" rot="R180"/>
-<pin name="VOUT2" x="33.02" y="15.24" length="middle" rot="R180"/>
-<pin name="VOUT3" x="33.02" y="10.16" length="middle" rot="R180"/>
+<wire x1="-27.94" y1="33.02" x2="25.4" y2="33.02" width="0.254" layer="94"/>
+<wire x1="25.4" y1="33.02" x2="25.4" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-38.1" x2="-27.94" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="-38.1" x2="-27.94" y2="33.02" width="0.254" layer="94"/>
+<pin name="/RESET" x="30.48" y="-30.48" length="middle" rot="R180"/>
+<pin name="ADC1" x="-33.02" y="25.4" length="middle"/>
+<pin name="ADC0" x="-33.02" y="27.94" length="middle"/>
+<pin name="ADC_RES" x="-33.02" y="22.86" length="middle"/>
+<pin name="ADR0" x="30.48" y="-10.16" length="middle" rot="R180"/>
+<pin name="ADR1/CDATA/WB" x="30.48" y="-12.7" length="middle" rot="R180"/>
+<pin name="AGND" x="-2.54" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="AGND@1" x="-7.62" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="AGND@2" x="-12.7" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="AVDD" x="2.54" y="38.1" length="middle" direction="pwr" rot="R270"/>
+<pin name="AVDD@1" x="0" y="38.1" length="middle" direction="pwr" rot="R270"/>
+<pin name="CLATCH/WP" x="30.48" y="-15.24" length="middle" rot="R180"/>
+<pin name="CM" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="DGND" x="2.54" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="DGND@1" x="7.62" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="DVDD" x="7.62" y="38.1" length="middle" direction="pwr" rot="R270"/>
+<pin name="DVDD@1" x="10.16" y="38.1" length="middle" direction="pwr" rot="R270"/>
+<pin name="FILTA" x="30.48" y="2.54" length="middle" rot="R180"/>
+<pin name="FILTD" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="IOVDD" x="-7.62" y="38.1" length="middle" direction="pwr" rot="R270"/>
+<pin name="MCLOCKI" x="-33.02" y="-30.48" length="middle"/>
+<pin name="MP0" x="-33.02" y="15.24" length="middle"/>
+<pin name="MP1" x="-33.02" y="12.7" length="middle"/>
+<pin name="MP2" x="-33.02" y="10.16" length="middle"/>
+<pin name="MP3" x="-33.02" y="7.62" length="middle"/>
+<pin name="MP4" x="-33.02" y="5.08" length="middle"/>
+<pin name="MP5" x="-33.02" y="2.54" length="middle"/>
+<pin name="MP6" x="-33.02" y="0" length="middle"/>
+<pin name="MP7" x="-33.02" y="-2.54" length="middle"/>
+<pin name="MP8" x="-33.02" y="-5.08" length="middle"/>
+<pin name="MP9" x="-33.02" y="-7.62" length="middle"/>
+<pin name="MP10" x="-33.02" y="-10.16" length="middle"/>
+<pin name="MP11" x="-33.02" y="-12.7" length="middle"/>
+<pin name="OSCO" x="-33.02" y="-33.02" length="middle"/>
+<pin name="PGND" x="12.7" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="PLL_LF" x="-33.02" y="-17.78" length="middle"/>
+<pin name="PLL_MODE0" x="-33.02" y="-22.86" length="middle"/>
+<pin name="PLL_MODE1" x="-33.02" y="-25.4" length="middle"/>
+<pin name="PVDD" x="-5.08" y="38.1" length="middle" direction="pwr" rot="R270"/>
+<pin name="RSVD" x="30.48" y="-33.02" length="middle" rot="R180"/>
+<pin name="SCL/CCLK" x="30.48" y="-22.86" length="middle" rot="R180"/>
+<pin name="SDA/COUT" x="30.48" y="-20.32" length="middle" rot="R180"/>
+<pin name="SELFBOOT" x="30.48" y="-27.94" length="middle" rot="R180"/>
+<pin name="VDRIVE" x="17.78" y="38.1" length="middle" rot="R270"/>
+<pin name="VOUT0" x="30.48" y="15.24" length="middle" rot="R180"/>
+<pin name="VOUT1" x="30.48" y="12.7" length="middle" rot="R180"/>
+<pin name="VOUT2" x="30.48" y="10.16" length="middle" rot="R180"/>
+<pin name="VOUT3" x="30.48" y="7.62" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
